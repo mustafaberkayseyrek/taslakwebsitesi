@@ -1,0 +1,162 @@
+/* CSS */
+
+/* Boşlukları Sıfırla */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+#sayfa{
+    width: 900px;
+    min-height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: antiquewhite;
+    margin: auto;
+}
+
+#banner{
+    width: 898px;
+    min-height: 100px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: antiquewhite;
+    margin: auto;
+    background-color: whitesmoke;
+}
+/* LOGO */
+#logo{
+    width: 10px;
+    height: 80px;
+    border-style: dotted;
+    border-width: 0px;
+    background-color: antiquewhite;
+    top: 7px;
+    left: 10px;
+    position: relative;
+    float: left;
+}
+/*SOSYAL MEDYA İCONLARI */
+#sosyal{
+    width: 130px;
+    height: 40px;
+    border-style: dotted;
+    border-width: 0px;
+    background-color: whitesmoke;
+    float: right;
+    right: 10px;
+    top: 50px;
+    position: relative;
+}
+/* Ana menü*/
+#anamenu{
+    width: 900px;
+    height: 50px;
+    border-style: dotted;
+    border-width: 0px;
+    border-color: antiquewhite;
+    margin: auto;
+    background-color:skyblue;
+}
+#anamenu ul{
+    list-style-type: none;
+    margin-left: 220px;
+}
+#anamenu ul li{
+    border-style: solid;
+    width: 80px;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: steelblue;
+    background-color: slategrey;
+    float: left;
+    padding: 4px;
+    margin-left: 40px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+#anamenu ul a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+#anamenu ul a:link{
+    color: blue;
+}
+#anamenu ul a:visited{
+    color: brown;
+}
+#anamenu ul a:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+/* içerik ve yan menü */
+#icerik{
+    width: 602px;
+    min-height: 400px;
+    border-style: dotted;
+    border-width: 0px;
+    border-color: antiquewhite;
+    background-color: whitesmoke;
+    float: left;
+}
+#yanmenu{
+    width: 298px;
+    min-height: 402px;
+    border-style: dotted;
+    border-width: 0px;
+    border-color: antiquewhite;
+    background-color:darkcyan;
+    float: right;
+}
+.resim{
+    margin: 3px;
+}
+.metin{
+    text-indent:50px;
+}
+.baslık{
+    padding-left: 1em
+}
+/* Alt Menü*/
+#altmenu{
+    width: 900px;
+    min-height: 46px;
+    border-style: dotted;
+    border-width: 0px;
+    border-color: antiquewhite;
+    background-color:grey;
+    float: right;
+    text-align: center;
+}
+#altmenu a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: blue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#altmenu a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.metin2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+}
